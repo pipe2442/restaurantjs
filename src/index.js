@@ -1,1 +1,3 @@
-alert('chao bambino')
+import homefile from './modules/home';
+
+homefile();

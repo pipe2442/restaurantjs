@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/pipe2442/restaurantjs#readme",
   "devDependencies": {
-    "css-loader": "^5.2.6",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   }
