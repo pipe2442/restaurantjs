@@ -8,10 +8,49 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-  }
+}
 nav a {
       text-decoration: none;
       color: white;
       font-family: 'Baloo Tammudu 2', cursive;
       font-size: xx-large;
-  }
+}
+.mainpage {
+    background-image: url(./images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+    padding: 300px;
+}
+.mainpage h1 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: -250px;
+    font-size: 500%;
+}
+.description {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px 300px;
+}
+.innerText {
+    margin-left: 200px;
+}
+.description h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+.description p {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: x-large;
+}
+
+.description img{
+    width:  400px;
+}
