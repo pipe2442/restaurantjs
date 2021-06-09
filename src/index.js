@@ -1,4 +1,5 @@
 import homefile from './modules/home';
+import menufile from './modules/menu';
 
 function nav() {
     document.getElementById('content').innerHTML += 
@@ -12,5 +13,5 @@ function nav() {
 };
 
 nav();
-
 //homefile();
+menufile();
