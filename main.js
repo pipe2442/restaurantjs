@@ -1,1 +1,1 @@
-(()=>{"use strict";document.getElementById("content").innerHTML+='<nav><ul><li><a href="#">Home</a></li><li><a href="#">Menu</a></li><li><a href="#">Contact</a></li></ul></nav>'})();
+(()=>{"use strict";document.getElementById("content").innerHTML+='<nav><ul><li><a href="#">Home</a></li><li><a href="#">Menu</a></li><li><a href="#">Contact</a></li></ul></nav>',document.getElementById("content").innerHTML+="<h1> test </h1>"})();
