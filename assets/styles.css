@@ -115,3 +115,16 @@ nav button:hover {
     display: flex;
     justify-content: center;
 }
+
+.footer {
+    background-color: black;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.footer p {
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size:medium;
+    text-align: center;
+}
