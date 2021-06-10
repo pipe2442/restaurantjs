@@ -1,0 +1,130 @@
+nav {
+    background-color: black;
+    margin: 0;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav button {
+      text-decoration: none;
+      background-color: black;
+      border-width: 0;
+      color: white;
+      padding: 0 5%;
+      font-family: 'Baloo Tammudu 2', cursive;
+      font-size: xx-large;
+}
+nav button:hover {
+    background-color: #323232;
+  }
+.mainpage {
+    background-image: url(./images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position:300px;
+    background-color: black;
+    padding: 350px;
+}
+.mainpage h1 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: -300px;
+    font-size: 500%;
+}
+.description {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px 300px;
+}
+.innerText {
+    margin-left: 200px;
+}
+.description h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+.description p {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: x-large;
+}
+
+.description img{
+    width:  350px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.dish {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: 40px 20px;
+}
+
+.dish img {
+    width: 250px;
+    border-radius: 10%;
+}
+
+.dishDescription {
+    margin-left: 35px;
+}
+
+.dishDescription h1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.dishDescription p{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: large;
+}
+
+.contactpage {
+    background-image: url(./images/romanticsushi.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position:300px;
+    background-color: black;
+    padding: 250px;
+}
+.contactpage h1 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: -200px;
+    font-size: 500%;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.footer p {
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size:medium;
+    text-align: center;
+}
