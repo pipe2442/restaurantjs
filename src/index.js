@@ -1,5 +1,6 @@
 import homefile from './modules/home';
 import menufile from './modules/menu';
+import contactfile from './modules/contact';
 
 function nav() {
     document.getElementById('content').innerHTML += 
@@ -13,5 +14,6 @@ function nav() {
 };
 
 nav();
-homefile();
+//homefile();
 //menufile();
+contactfile();
