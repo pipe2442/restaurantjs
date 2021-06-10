@@ -9,12 +9,18 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
-nav a {
+nav button {
       text-decoration: none;
+      background-color: black;
+      border-width: 0;
       color: white;
+      padding: 0 5%;
       font-family: 'Baloo Tammudu 2', cursive;
       font-size: xx-large;
 }
+nav button:hover {
+    background-color: #323232;
+  }
 .mainpage {
     background-image: url(./images/main.jpg);
     background-repeat: no-repeat;

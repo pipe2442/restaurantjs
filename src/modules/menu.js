@@ -1,5 +1,10 @@
+import nav from './../index'
+
 function menufile() {
-    document.getElementById('content').innerHTML += 
+    document.getElementById('content').innerHTML = ""
+    nav();
+    const menuDiv = document.createElement('div');
+    menuDiv.innerHTML += 
     '<div class="menu">'+
         '<div class="dish">'+ 
             '<img src="https://images.rappi.com/products/2091744430-1593818637627.jpg?d=400x400" alt="monster">'+ 
@@ -62,7 +67,8 @@ function menufile() {
         '</div>'+ 
 
     '</div>' 
-};
+    document.getElementById('content').appendChild(menuDiv);
 
+};
 
 export default menufile;

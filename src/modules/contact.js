@@ -1,5 +1,10 @@
+import nav from './../index'
+
 function contactfile() {
-    document.getElementById('content').innerHTML += 
+    document.getElementById('content').innerHTML = "";
+    nav();
+    const contactDiv = document.createElement('div');
+    contactDiv.innerHTML += 
     '<div class="contactpage">'+
     '<h1>ASIA DRAGON</h1>'+
     '</div>'+
@@ -21,6 +26,8 @@ function contactfile() {
         '0Hollywood%2C%20CA%2090069%2C%20USA!5e0!3m2!1sen!2sco!4v1623288518059!5m2!1sen!2sco"'+ 
         'width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>'+
     '</div>'
+    document.getElementById('content').appendChild(contactDiv);
+
 };
 
 export default contactfile;

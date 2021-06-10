@@ -1,5 +1,10 @@
+import nav from './../index'
+
 function homefile() {
-    document.getElementById('content').innerHTML += 
+    document.getElementById('content').innerHTML = ""
+    nav();
+    const homeDiv = document.createElement('div');
+    homeDiv.innerHTML += 
     '<div class="mainpage">'+
     '<h1>ASIA DRAGON</h1>'+
     '</div>'+
@@ -15,6 +20,7 @@ function homefile() {
             '</p>'+
         '</div>'+
     '</div>'
+    document.getElementById('content').appendChild(homeDiv);
 };
 
 export default homefile;
