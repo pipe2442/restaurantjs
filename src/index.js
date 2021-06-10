@@ -1,3 +1,5 @@
+/* eslint-disable import/no-cycle */
+
 import homefile from './modules/home';
 import menufile from './modules/menu';
 import contactfile from './modules/contact';
@@ -13,10 +15,6 @@ function nav() {
     + '</nav>';
   document.getElementById('content').appendChild(newDiv);
 
-  document.getElementById('homeBtn').onclick = showHome;
-  document.getElementById('menuBtn').onclick = showMenu;
-  document.getElementById('contactBtn').onclick = showContact;
-
   function showHome() {
     homefile();
   }
@@ -26,6 +24,10 @@ function nav() {
   function showContact() {
     contactfile();
   }
+
+  document.getElementById('homeBtn').onclick = showHome;
+  document.getElementById('menuBtn').onclick = showMenu;
+  document.getElementById('contactBtn').onclick = showContact;
 }
 
 document.getElementById('content').innerHTML = '';

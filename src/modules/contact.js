@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import nav from '../index';
 
 function contactfile() {
