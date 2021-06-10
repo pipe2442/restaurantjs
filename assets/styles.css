@@ -54,3 +54,36 @@ nav a {
 .description img{
     width:  350px;
 }
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.dish {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin: 40px 20px;
+}
+
+.dish img {
+    width: 250px;
+    border-radius: 10%;
+}
+
+.dishDescription {
+    margin-left: 35px;
+}
+
+.dishDescription h1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.dishDescription p{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: large;
+}
