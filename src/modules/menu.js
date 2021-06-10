@@ -74,6 +74,6 @@ const menufile = () => {
         + '<p>© Copyright Luis Felipe Angulo Torres</p>'
     + '</div>';
   document.getElementById('content').appendChild(footDiv);
-}
+};
 
 export default menufile;

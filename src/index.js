@@ -17,18 +17,18 @@ const nav = () => {
 
   const showHome = () => {
     homefile();
-  }
+  };
   const showMenu = () => {
     menufile();
-  }
+  };
   const showContact = () => {
     contactfile();
-  }
+  };
 
   document.getElementById('homeBtn').onclick = showHome;
   document.getElementById('menuBtn').onclick = showMenu;
   document.getElementById('contactBtn').onclick = showContact;
-}
+};
 
 document.getElementById('content').innerHTML = '';
 nav();
