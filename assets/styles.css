@@ -87,3 +87,25 @@ nav a {
     font-family: 'Baloo Tammudu 2', cursive;
     font-size: large;
 }
+
+.contactpage {
+    background-image: url(./images/romanticsushi.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position:400px;
+    background-color: black;
+    padding: 250px;
+}
+.contactpage h1 {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: -200px;
+    font-size: 500%;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+}
