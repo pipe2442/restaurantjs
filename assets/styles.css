@@ -26,7 +26,7 @@ nav button:hover {
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
-    background-position:400px;
+    background-position:center;
     background-color: black;
     padding: 350px;
 }
