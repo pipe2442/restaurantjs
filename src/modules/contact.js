@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
 import nav from '../index';
 
-function contactfile() {
+const contactfile = () => {
   document.getElementById('content').innerHTML = '';
   nav();
   const contactDiv = document.createElement('div');

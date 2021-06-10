@@ -4,7 +4,7 @@ import homefile from './modules/home';
 import menufile from './modules/menu';
 import contactfile from './modules/contact';
 
-function nav() {
+const nav = () => {
   const newDiv = document.createElement('div');
   newDiv.innerHTML = '<nav>'
         + '<ul>'
@@ -15,13 +15,13 @@ function nav() {
     + '</nav>';
   document.getElementById('content').appendChild(newDiv);
 
-  function showHome() {
+  const showHome = () => {
     homefile();
   }
-  function showMenu() {
+  const showMenu = () => {
     menufile();
   }
-  function showContact() {
+  const showContact = () => {
     contactfile();
   }
 

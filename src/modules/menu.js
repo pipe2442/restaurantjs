@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
 import nav from '../index';
 
-function menufile() {
+const menufile = () => {
   document.getElementById('content').innerHTML = '';
   nav();
   const menuDiv = document.createElement('div');
