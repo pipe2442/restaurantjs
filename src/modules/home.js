@@ -21,6 +21,12 @@ function homefile() {
         '</div>'+
     '</div>'
     document.getElementById('content').appendChild(homeDiv);
+    const footDiv = document.createElement('div');
+    footDiv.innerHTML = 
+    '<div class="footer">'+
+        '<p>© Copyright Luis Felipe Angulo Torres</p>'+
+    '</div>'
+    document.getElementById('content').appendChild(footDiv);
 };
 
 export default homefile;

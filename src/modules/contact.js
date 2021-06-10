@@ -27,7 +27,12 @@ function contactfile() {
         'width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>'+
     '</div>'
     document.getElementById('content').appendChild(contactDiv);
-
+    const footDiv = document.createElement('div');
+    footDiv.innerHTML = 
+    '<div class="footer">'+
+        '<p>© Copyright Luis Felipe Angulo Torres</p>'+
+    '</div>'
+    document.getElementById('content').appendChild(footDiv);
 };
 
 export default contactfile;
