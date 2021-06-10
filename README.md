@@ -19,7 +19,7 @@ This project has been developed to accomplish basic javascript module at Microve
 
 ## Live Demo
 
-- [Hosted githack](https://rawcdn.githack.com/pipe2442/restaurantjs/eba248af31cad326d6ab167157583403004886e7/dist/index.html)
+- [Hosted on Github Pages](https://pipe2442.github.io/restaurantjs/dist/)
 
 ## Getting Started
 
