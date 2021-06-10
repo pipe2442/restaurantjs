@@ -20,15 +20,15 @@ nav a {
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
-    background-position: center;
+    background-position:400px;
     background-color: black;
-    padding: 300px;
+    padding: 350px;
 }
 .mainpage h1 {
     color: white;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    margin-top: -250px;
+    margin-top: -300px;
     font-size: 500%;
 }
 .description {
