@@ -1,4 +1,4 @@
-# TIC TAC TOE
+# RESTAURANT PAGE JS
 # 
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
