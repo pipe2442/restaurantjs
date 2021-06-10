@@ -11,6 +11,8 @@ This project has been developed to accomplish basic javascript module at Microve
 ## Built With
 
 - [Javascript](https://www.javascript.com/).
+- [Webpack](https://webpack.js.org/).
+- [npm](https://www.npmjs.com/).
 - [Html](https://html.com/).
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html). 
 - [Git](https://www.w3.org/Style/CSS/Overview.en.html).
