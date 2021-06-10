@@ -13,5 +13,5 @@ function nav() {
 };
 
 nav();
-//homefile();
-menufile();
+homefile();
+//menufile();
